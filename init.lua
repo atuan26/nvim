@@ -21,5 +21,18 @@ require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
 
+vim.g.go_highlight_types = 1
+vim.g.go_highlight_fields = 1
+vim.g.go_highlight_functions = 1
+vim.g.go_highlight_function_calls = 1
+vim.g.go_highlight_operators = 1
+vim.g.go_highlight_extra_types = 1
+
+vim.g.python_highlight_all = 1
+
+vim.g.blamer_enabled = true
+vim.g.blamer_prefix = ' ❖ '
+
+
 -- local vimrc = vim.fn.stdpath("config") .. "/plug.vim"
 -- vim.cmd.source(vimrc)
